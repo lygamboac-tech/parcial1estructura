@@ -107,7 +107,7 @@ public class Funciones {
                 int c = 0;
                 for (int i = 0; i < 5; i++){
                     for (int x = 0; x < 4; x++){
-                        System.out.print((c+1) + actual.getData().getPuestos()[x]+ "  ");
+                        System.out.print((c+1) + actual.getData().getPuestos()[c]+ "  ");
                         c++;
                     }
                     System.out.println();
